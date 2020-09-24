@@ -1,6 +1,8 @@
 import React from "react";
 import "./SearchPage.css";
 import ChannelRow from "./ChannelRow";
+import VideoRow from "./VideoRow";
+
 import TuneIcon from "@material-ui/icons/Tune";
 
 function SearchPage() {
@@ -19,6 +21,16 @@ function SearchPage() {
         subs="864k"
         noOfVideos={7007}
         description="Join Cricket's Biggest fan club on Earth"
+      />
+      <hr />
+      <VideoRow
+        views="1.3k"
+        subscription="1M"
+        description="Preview of RCB Vs Kings XI-"
+        timestamp="1hr ago"
+        channel="Espn Cricinfo"
+        title="RCB Vs Kings XI Dream 11"
+        image="https://www.crictracker.com/wp-content/uploads/2020/09/dream11-FI-640x400-Match-6.png"
       />
     </div>
   );
