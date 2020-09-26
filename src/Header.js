@@ -5,6 +5,7 @@ import MenuIcon from "@material-ui/icons/Menu";
 import SearchIcon from "@material-ui/icons/Search";
 import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
+import Avatar from "@material-ui/core/Avatar";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import { Link } from "react-router-dom";
 
@@ -40,6 +41,10 @@ function Header() {
         <VideoCallIcon className="header_icon" />
         <AppsIcon className="header_icon" />
         <NotificationsIcon className="header_icon" />
+        <Avatar
+          alt=""
+          src="https://avatars2.githubusercontent.com/u/49438857?s=460&u=adaed6e59ffa6658870d29a1c76a25e12e621376&v=4"
+        />
       </div>
     </div>
   );
