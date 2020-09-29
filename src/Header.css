@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -10,7 +10,7 @@
 }
 .header_logo {
   height: 85px;
-  margin-left: 10px;
+  margin-left: 40px;
   object-fit: contain;
 }
 
@@ -38,4 +38,9 @@
 .header_input > input {
   flex: 1;
   border: none;
+  width: 10%;
+}
+.menu {
+  position: absolute;
+  top: 40px;
 }

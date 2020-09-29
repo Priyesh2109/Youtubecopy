@@ -32,6 +32,15 @@ function SearchPage() {
         title="RCB Vs Kings XI Dream 11"
         image="https://www.crictracker.com/wp-content/uploads/2020/09/dream11-FI-640x400-Match-6.png"
       />
+      <VideoRow
+        views="1.6k"
+        subscription="1M"
+        description="Review of RCB Vs MI"
+        timestamp="1hr ago"
+        channel="Espn Cricinfo"
+        title="RCB Vs MI-Review"
+        image="https://m.hindustantimes.com/rf/image_size_960x540/HT/p2/2020/09/28/Pictures/_7dc0f2d8-01b7-11eb-a0ae-05799bfe6215.jpg"
+      />
     </div>
   );
 }

@@ -17,7 +17,7 @@ function ChannelRow({
       <Avatar className="channel_logo" alt={channel} src={image} />
       <div className="channelRow_text">
         <h4>
-          {channel} {verified && <CheckCircleIcon />}
+          {channel} {verified && <CheckCircleIcon className="tick" />}
         </h4>
 
         <p>
