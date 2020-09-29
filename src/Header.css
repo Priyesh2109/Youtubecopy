@@ -17,18 +17,22 @@
 .header_input {
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 50%;
   border: 1px solid gray;
 }
 .header_icon {
-  margin-right: 8px;
+  margin-left: 10px;
 }
 
 .header_searchbtn {
   width: 10% !important;
   background-color: #fafafa;
   border-left: 1px solid lightgray;
-  color: gray;
+  color: grey;
+  margin-left: 120px;
+}
+.header_searchbtn :hover {
+  color: black;
 }
 
 .header_icons {
