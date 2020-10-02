@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header";
-
+import BurgerMenu from "./BurgerMenu";
 import Sidebar from "./Sidebar";
 import Recommend from "./Recommend";
 import SearchPage from "./SearchPage";
@@ -18,6 +18,7 @@ function App() {
             <div className="app_page">
               <Sidebar />
               <SearchPage />
+              <BurgerMenu />
             </div>
           </Route>
           <Route path="/">
